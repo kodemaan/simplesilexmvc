@@ -24,6 +24,10 @@ Layout
 
 /web/ - Contains Silex runner and any public facing files (css,js)
 
+Configuration
+----
+- Make sure under /app/app.php the MAIN_BUNDLE constant is set to your main bundle in the src folder. I'll try and fix this in future releases, this is only for Views
+
 To Do
 ----
 

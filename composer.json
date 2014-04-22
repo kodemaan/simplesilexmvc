@@ -3,5 +3,10 @@
         "silex/silex": "~1.2",
         "symfony/twig-bridge": "~2.3",
         "doctrine/dbal": "2.2.*"
+    },
+    "autoload": {
+        "psr-0" : {
+            "": "src/"
+        }
     }
 }
