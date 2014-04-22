@@ -9,6 +9,7 @@ Getting Started
 - Checkout this Repo
 - Install composer (https://getcomposer.org)
 - Run the following command in root of repo *composer.phar install*
+- Ensure web server is pointing at the /web folder, and not the / folder
 - Enjoy!
 
 Layout
