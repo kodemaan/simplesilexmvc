@@ -2,7 +2,7 @@
 //Adding use statement for WelcomeController
 use Acme\Controllers\WelcomeController;
 // Add all routes here for easy tracking
-$app->get('/', function() {
+$app->get('/', function() use ($app) {
     $controller = new WelcomeController();
-    return $controller->echoWelcome();
+    return $controller->echoWelcome($app);
 });
