@@ -9,3 +9,4 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
         'path'     => __DIR__.'/app.db',
     ),
 ));
+

@@ -1,4 +1,7 @@
 {
+    "name": "kodemaan/simplesilexmvc",
+    "description": "simple mvc framework made with silex",
+    "license": "MIT",
     "require": {
         "silex/silex": "~1.2",
         "symfony/twig-bridge": "~2.3",
@@ -6,7 +9,7 @@
     },
     "autoload": {
         "psr-0" : {
-            "": "src/"
+            "Acme\\": "src/"
         }
     }
 }
