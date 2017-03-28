@@ -9,7 +9,7 @@
     },
     "autoload": {
         "ps-0" : {
-            "Acme\\": "sc/"
+            "Acme\\": "src/"
         }
     }
 }
