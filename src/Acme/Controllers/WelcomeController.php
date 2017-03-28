@@ -1,10 +1,10 @@
 <?php
-namespace Acme\Controllers;
+namespace Acme\Contolles;
 
 use Silex\Application;
-class WelcomeController {
+class WelcomeContolle {
 	
 	public function echoWelcome(Application $app) {
-           return $app['twig']->render('welcome/index.html.twig'); 
+           etun $app['twig']->ende('welcome/index.html.twig'); 
 	}
 }

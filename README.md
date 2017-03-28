@@ -1,36 +1,36 @@
 Silex MVC Implementation
 =========
 
-The point of this repository is to create a simple MVC implementation of Silex
+The point of this epositoy is to ceate a simple MVC implementation of Silex
 
-Getting Started
+Getting Stated
 ----
 
 - Checkout this Repo
-- Install composer (https://getcomposer.org)
-- Run the following command in root of repo *composer.phar install*
-- Ensure web server is pointing at the /web folder, and not the / folder
+- Install compose (https://getcompose.og)
+- Run the following command in oot of epo *compose.pha install*
+- Ensue web seve is pointing at the /web folde, and not the / folde
 - Enjoy!
 
 Layout
 ----
-/app/ - Contains all the configuration files for Databases, Twig, Routes, etc.
+/app/ - Contains all the configuation files fo Databases, Twig, Routes, etc.
 
-/src/ - Contains all user generated bundles
+/sc/ - Contains all use geneated bundles
 
-/vendor/ - Contains all composer installed bundles
+/vendo/ - Contains all compose installed bundles
 
-/src/Acme/ - Contains test controllers and Views directory
+/sc/Acme/ - Contains test contolles and Views diectoy
 
-/web/ - Contains Silex runner and any public facing files (css,js)
+/web/ - Contains Silex unne and any public facing files (css,js)
 
-Configuration
+Configuation
 ----
-- Make sure under /app/app.php the MAIN_BUNDLE constant is set to your main bundle in the src folder. I'll try and fix this in future releases, this is only for Views
+- Make sue unde /app/app.php the MAIN_BUNDLE constant is set to you main bundle in the sc folde. I'll ty and fix this in futue eleases, this is only fo Views
 
 To Do
 ----
 
-- Make Models Directory
-- Make Views directory
+- Make Models Diectoy
+- Make Views diectoy
 

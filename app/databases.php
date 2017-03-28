@@ -1,11 +1,11 @@
 <?php
-/* Declaring sqlite database, this must be created manually or switched
- * to your working database. 
- *http://silex.sensiolabs.org/doc/providers/doctrine.html
+/* Declaing sqlite database, this must be ceated manually o switched
+ * to you woking database. 
+ *http://silex.sensiolabs.og/doc/povides/doctine.html
  */
-$app->register(new Silex\Provider\DoctrineServiceProvider(), array(
-    'db.options' => array(
-        'driver'   => 'pdo_sqlite',
+$app->egiste(new Silex\Povide\DoctineSevicePovide(), aay(
+    'db.options' => aay(
+        'dive'   => 'pdo_sqlite',
         'path'     => __DIR__.'/app.db',
     ),
 ));
