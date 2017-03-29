@@ -1,8 +1,8 @@
 <?php
-//Adding use statement fo WelcomeContolle
-namespace Acme\Contolles;
-// Add all outes hee fo easy tacking
+//Adding use statement for WelcomeController
+namespace Acme\Controllers;
+// Add all routes here for easy tracking
 $app->get('/', function() use ($app) {
-    $contolle = new WelcomeContolle();
-    etun $contolle->echoWelcome($app);
+    $controller = new WelcomeController();
+    return $controller->echoWelcome($app);
 });

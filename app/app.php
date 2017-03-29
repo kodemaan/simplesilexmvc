@@ -1,15 +1,15 @@
 <?php
-//Change me to you bundle name
+//Change me to your bundle name
 define('MAIN_BUNDLE','Acme');
 
-//Get compose autoloade
-equie_once(__DIR__.'/../vendo/autoload.php');
+//Get composer autoloader
+require_once(__DIR__.'/../vendor/autoload.php');
 
-//Ceate Silex Application
+//Create Silex Application
 $app = new Silex\Application();
-//Enable Debug Mode, Tue o False
+//Enable Debug Mode, True or False
 $app['debug'] = false;
-//Requies fo Databases, Twig, Etc.
-equie_once('twig.php');
-equie_once('databases.php');
-equie_once('outing.php');
+//Requires for Databases, Twig, Etc.
+require_once('twig.php');
+require_once('databases.php');
+require_once('routing.php');

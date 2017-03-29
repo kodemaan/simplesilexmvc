@@ -1,14 +1,14 @@
 {
     "name": "kodemaan/simplesilexmvc",
-    "desciption": "simple mvc famewok made with silex",
+    "description": "simple mvc framework made with silex",
     "license": "MIT",
-    "equie": {
+    "require": {
         "silex/silex": "~1.2",
-        "symfony/twig-bidge": "~2.3",
-        "doctine/dbal": "2.2.*"
+        "symfony/twig-bridge": "~2.3",
+        "doctrine/dbal": "2.2.*"
     },
     "autoload": {
-        "ps-0" : {
+        "psr-0" : {
             "Acme\\": "src/"
         }
     }
