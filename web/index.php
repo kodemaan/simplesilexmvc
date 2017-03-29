@@ -4,4 +4,3 @@ require_once __DIR__.'/../app/app.php';
 
 //Run silex application
 $app->run();
-

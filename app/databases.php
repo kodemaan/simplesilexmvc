@@ -1,6 +1,6 @@
 <?php
 /* Declaring sqlite database, this must be created manually or switched
- * to your working database. 
+ * to your working database.
  *http://silex.sensiolabs.org/doc/providers/doctrine.html
  */
 $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
@@ -9,4 +9,3 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
         'path'     => __DIR__.'/app.db',
     ),
 ));
-
