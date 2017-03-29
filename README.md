@@ -1,6 +1,7 @@
 Silex MVC Implementation
 =========
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/b02add79-4e56-4c44-b685-fd14778b53ca/mini.png)](https://insight.sensiolabs.com/projects/b02add79-4e56-4c44-b685-fd14778b53ca)
 The point of this repository is to create a simple MVC implementation of Silex
 
 Getting Started
